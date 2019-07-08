@@ -1,0 +1,49 @@
+@font-face
+{
+  font-family:Gotham Medium Regular;
+  src: url('../font/Gotham Medium Regular.ttf');
+}
+
+@font-face
+{
+  font-family:Gotham Book Regular;
+  src: url('../font/Gotham Book Regular.otf');
+}
+
+.navbar-toggler-icon
+{
+    background-image: url("../images/X.png") !important;
+    background-size: 30px 50px !important;
+}
+   
+.navbar-nav
+{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.navbar-nav .nav-item a
+{   
+    font-family:Gotham Medium Regular; 
+    display: block;
+    margin-left: 50px;
+    padding: 0px;
+   transition: 0.5s;
+  
+   letter-spacing: 2px;
+   transition: 0.5s;
+}
+
+.navbar-nav .nav-item a:hover
+{
+    color: #ff2b06 !important;
+  letter-spacing: 5px;
+
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.navbar-brand
+{
+  width: 16%;
+  margin-left: 25px;
+}
+

@@ -1,0 +1,185 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    /*wraaper2 responsive design */
+    .wrapper2 .section2 {
+        height: 770px;
+        width: 60%;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .wrapper2 .section2 .image {
+        width: 100%;
+        padding: 2em 0;
+        margin: 0;
+
+    }
+
+    .text3 strong {
+        font-family: Gotham Medium Regular;
+        width: 50%;
+        margin-left: 0;
+        font-size: 2em;
+
+    }
+
+    .text3 p {
+        font-family: Gotham Book Regular;
+        text-align: left;
+        padding-top: 1em;
+    }
+
+    /*wrapper3 responsive desgin*/
+
+    .section3 {
+
+        overflow: hidden;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .countdown {
+        background-color: #0a0a0a;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+        position: relative;
+
+    }
+
+    .colon-separator {
+        display: none;
+    }
+
+    .countdown ul {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .countdown li h2 {
+        margin-left: 0px;
+    }
+
+    /* .countdown li {
+        display: inline-block;
+        color: #FF2B06;
+        font-size: 27px;
+        letter-spacing: 5px;
+        font-family: Gotham Medium Regular;
+
+        padding: 25px;
+        text-transform: uppercase;
+    }
+
+    .countdown li span {
+        display: block;
+        color: #ffffff;
+        font-family: Gotham Book Regular;
+        font-size: 2em;
+
+    }*/
+
+
+    /*wrapper4 design */
+
+
+    .section4 {
+        border-bottom: solid #FF2B06;
+        width: 100%;
+        margin-top: 0px;
+        height:auto;
+        overflow: hidden;
+    }
+
+    .ticket-venue {
+        padding: 2em;
+    margin: 2em;
+    text-align: center;
+    }
+
+    .col1,.col2 {
+        display: inline-block;
+        min-height: 200px;
+        /*margin-left: 0;
+        margin-top: 0;*/
+        margin: 1em
+
+    }
+
+    .col1 img,
+    .col2 img {
+        margin-bottom: 1em;
+    }
+
+    .col1 strong,
+    .col2 strong {
+        margin-left: 0px;
+        font-size: 1em;
+        font-family: Gotham Medium Regular;
+
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .wrapper2 .section2 {
+        height: 770px;
+        width: 60%;
+        margin: auto;
+        overflow: hidden;
+
+    }
+
+    .text3 {
+        margin: 0px;
+        width: 100%;
+
+    }
+
+    .text3 i {
+        font-style: normal;
+        color: #FF2B06;
+        font-size: 50px;
+    }
+
+    .text3 strong {
+        font-family: Gotham Medium Regular;
+        width: 50%;
+        margin-left: 150px;
+        font-size: 40px;
+    }
+
+    .text3 p {
+        font-family: Gotham Book Regular;
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}

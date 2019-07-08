@@ -1,0 +1,23 @@
+@font-face
+{
+  font-family:Gotham Medium Regular;
+  src: url('../font/Gotham Medium Regular.ttf');
+}
+
+@font-face
+{
+  font-family:Gotham Book Regular;
+  src: url('../font/Gotham Book Regular.otf');
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+  

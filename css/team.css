@@ -1,0 +1,133 @@
+@font-face
+{
+  font-family:Gotham Medium Regular;
+  src: url('../font/Gotham Medium Regular.ttf');
+}
+
+@font-face
+{
+  font-family:Gotham Book Regular;
+  src: url('../font/Gotham Book Regular.otf');
+}
+*
+{
+  scroll-behavior: smooth;
+}
+.box{
+    position: relative;
+   width:218px;
+   height: 218px;
+   padding: 0px;
+   background-color: #0a0a0a;
+ transition: 0.5s ease-in-out;
+ overflow: hidden;
+ }
+
+
+
+.box img
+{
+   
+    border: 1px solid #ffffff;
+    transition: 0.5s ease-in-out;
+    
+}
+.box:hover img
+{
+
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.box:hover
+{
+  transition: 0.5s ease-in-out;
+  border: dotted #ff2b06;
+border-width: thin;
+}
+.wrraper
+{
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+    
+}
+  .flex-container
+  {
+  display:flex;
+  flex-wrap:wrap;
+   margin: 71px;
+    padding-left: 40px;
+   background-color: transparent;
+  
+  }
+  .flex-container > div {
+    
+    width: 218px;
+    height: 218px;
+    margin: 34px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+ 
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0009;
+  }
+  
+  .box:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-family:Gotham Medium Regular;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+  @media  (max-width:400px)
+  {
+    .flex-container
+    {
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+    }
+  }
+
+  @media  (max-width:310px)
+  {
+    .flex-container
+    {
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    }
+  }
+
+  @media  (max-width:290px)
+  {
+    .flex-container
+    {
+    margin: -10px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    }
+  }
