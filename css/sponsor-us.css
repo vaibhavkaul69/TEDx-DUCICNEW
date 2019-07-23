@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Gotham Medium Regular;
+    src: url('../font/Gotham Medium Regular.ttf');
+}
+
+@font-face {
+    font-family: Gotham Book Regular;
+    src: url('../font/Gotham Book Regular.otf');
+}
+
+body
+{
+    background:#0a0a0a;
+}
+
+.register{
+    background: -webkit-linear-gradient(left, #ff2b06,#3931af);
+  padding: 3%;
+    
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 0%;
+}
+
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 30%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+      font-family: Gotham Book Regular;
+}
+.register .register-form{
+    padding: 10%;
+    font-family: Gotham Book Regular;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #3931af;
+     filter:brightness(100%);
+     filter:drop-shadow(8px 8px 10px gray);
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+    font-weight:lighter;
+    font-family: Gotham Medium Regular;
+    transition: 0.5s ease-in-out;
+}
+.btnRegister:hover
+{
+    color:#3931af;
+    background: #f8f9fa;
+    border:1px solid #3931af; 
+    transition: 0.3s ease-in-out;
+}
+
+.form-control:focus
+{
+    border:1px solid #3931af;
+    box-shadow: none;
+     filter:drop-shadow(8px 8px 10px gray);
+   
+}
+.line
+{
+  
+   margin-left:42%;
+   margin-right:42%;
+   border:1px solid #ff2b06;
+
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    font-size:2.5em;
+    font-weight:lighter;
+     font-family: Gotham Medium Regular;
+    margin-bottom: -15%;
+    color: #3931af;
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .register-left p
+    {
+    font-weight: lighter;
+    padding: 5%;
+    font-size: 0.8em;
+    margin-top: -9%;
+    font-family: Gotham Book Regular;
+    }
+    .register-left h3
+    {
+        margin-bottom:1em;
+    }
+    .btnRegister
+    {
+    padding: 4%;
+    width: 60%;
+   }
+}
+
+@media only screen and (max-width:700px)
+{
+    .top-content
+   {
+       display:none;
+    }
+}

@@ -1,46 +1,871 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:1245px)
+{
+    .section2
+    {
+        width:80%;
+    }
+}
+@media only screen and (min-width:1101px) and (max-width:1126px)
+{
+   .navbar-nav
+   {
+     margin-left:0px;
+     width: 100%;
+   }
+   .navbar-brand
+   {
+     margin-left:5px;
+    }
+}
+@media only screen and (max-width:1100px)
+{
+      /*--------------------navbar-----------------------*/
+     .navbar-nav
+    {
+        margin-left:0px;
+    }
+    .nav-link
+    {
+        font-size:15px !important;
+    }
+    .navbar-brand img
+       {
+        margin-left: 0px;
+        }
 
-
-    /*wraaper2 responsive design */
-    .wrapper2 .section2 {
-        height: 770px;
-        width: 60%;
-        margin: auto;
-        overflow: hidden;
-
+        #navbar-top
+        {
+            padding-left:0px;
+            padding-right:5px;
+            
+        }
+/*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
     }
 
-    .wrapper2 .section2 .image {
-        width: 100%;
-        padding: 2em 0;
-        margin: 0;
-
-    }
-
-    .text3 strong {
+    .text1 h2 {
         font-family: Gotham Medium Regular;
-        width: 50%;
-        margin-left: 0;
-        font-size: 2em;
-
+        margin-left: 0px;
+        font-size: 50px;
     }
 
-    .text3 p {
+    .text1 p {
         font-family: Gotham Book Regular;
-        text-align: left;
-        padding-top: 1em;
+        font-size:1.5em;
+        font-weight: lighter;
+        margin-bottom: 20px;
     }
+
+    .text1 button {
+
+        width: 300px;
+        height: 50px;
+        margin-left: 10%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 20px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        right: 5%;
+         text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 50px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1.5em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text2 button {
+        width: 300px;
+        height: 50px;
+         margin-left: 10%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 20px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    /*---------section 2----------*/
+     .word:nth-child(1)
+  {
+    margin-left:25%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:38%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:22%;
+  }
+}
+
+@media only screen and (max-width:975px)
+{
+    /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 40px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+       font-size:1.5em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text1 button {
+
+        width: 300px;
+        height: 50px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 20px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+         text-align: center;
+        border-radius: 20px;
+        right: 5%;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 40px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1.5em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text2 button {
+        width: 300px;
+        height: 50px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 20px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    
+
+}
+@media only screen and (max-width:922px)
+{
+
+  .section3
+  {
+       height:700px;
+   }
+  .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:0.8em;
+}
+
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 5px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.countdown li span {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size: 3.5em;
+}
+
+.countdown ul li span:nth-child(1)
+{
+  margin-left:20px;
+}
+
+/*--------------------section 3 ends-------------------*/
+
+}
+
+@media only screen and (max-width:860px)
+{
+     /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 1.3em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text1 button {
+
+        width: 250px;
+        height: 40px;
+        margin-left: 5%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 18px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+       text-align:center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 30px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1.3em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text2 button {
+        width: 250px;
+        height: 40px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 18px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    /*-------------section 3-----------------*/
+     .section3
+  {
+       height:650px;
+   }
+    .countdown ul
+    {
+      margin-top:30%;
+    }
+    .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:0.8em;
+}
+
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 2.5px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.countdown li span {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:2.5em;
+}
+
+.countdown ul li span:nth-child(1)
+{
+  margin-left:20px;
+}
+}
+
+@media only screen and (max-width:800px)
+{
+    /*---------section 2----------*/
+     .ml15 
+     {
+    font-size: 45px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:25%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:38%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:22%;
+  }
+  .lead
+  {
+      font-size:18px;
+  }
+}
+
+
+@media only screen and (max-width:770px)
+{
+     /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 1.1em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text1 button {
+
+        width: 250px;
+        height: 40px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 18px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+          text-align: center;
+        right: 5%;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1.1em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text2 button {
+        width: 250px;
+        height: 40px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 18px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+     
+
+}
+
+@media only screen and (max-width:700px)
+{
+      /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 1em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text1 button {
+
+        width: 200px;
+        height: 35px;
+        margin-left: 5%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 18px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+          text-align: center;
+        right: 5%;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+
+    .text2 button {
+        width: 220px;
+        height: 35px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 15px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    /*---------section 2----------*/
+     .ml15 
+     {
+    font-size: 45px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:25%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:40%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:20%;
+  }
+}
+
+@media only screen and (max-width:674px)
+{
+     /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+      text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 1em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+    .text1 button {
+
+        width: 200px;
+        height: 30px;
+        margin-left: 5%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 15px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        right: 5%;
+          text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:1em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+    .text2 button {
+        width: 200px;
+        height: 30px;
+         margin-left: 5%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 13px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    /*----------- section 3--------------*/
+       .section3
+  {
+       height:600px;
+   }
+    .countdown ul
+    {
+      margin-top:35%;
+    }
+
+
+     .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:0.7em;
+}
+
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 2px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.countdown li span {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:2.3em;
+}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+ {
+
+     /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.9em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+    .text1 button {
+
+        width: 200px;
+        height: 30px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 15px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        right: 5%;
+        text-align:center;
+        top: 40%;
+        width: 40%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.9em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+    .text2 button {
+        width: 200px;
+        height: 30px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 13px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    /*wraaper2 responsive design */
+  .ml15 
+     {
+    font-size: 45px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:17%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:35%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:12%;
+  }
 
     /*wrapper3 responsive desgin*/
 
     .section3 {
 
         overflow: hidden;
-        margin-top: 0;
+       height:500px;
         width: 100%;
-        height: auto;
-
+        
     }
 
     .countdown {
@@ -53,21 +878,25 @@
         -webkit-flex-flow: row wrap;
         justify-content: space-around;
         position: relative;
+        margin-top:30%
 
     }
 
-    .colon-separator {
+    .colon-separator 
+    {
         display: none;
     }
 
     .countdown ul {
         width: 100%;
-        margin-top: 0;
+        margin-top: 2%;
+        margin-right: 1em;
         text-align: center;
     }
-
+   
     .countdown li h2 {
         margin-left: 0px;
+       
     }
 
     /* .countdown li {
@@ -132,54 +961,947 @@
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
 
-    .wrapper2 .section2 {
-        height: 770px;
-        width: 60%;
-        margin: auto;
-        overflow: hidden;
 
+
+
+@media (max-width: 575px) {
+    .w-100 {
+        margin-top: 70px;
     }
 
-    .text3 {
-        margin: 0px;
-        width: 100%;
-
-    }
-
-    .text3 i {
-        font-style: normal;
-        color: #FF2B06;
-        font-size: 50px;
-    }
-
-    .text3 strong {
-        font-family: Gotham Medium Regular;
-        width: 50%;
-        margin-left: 150px;
-        font-size: 40px;
-    }
-
-    .text3 p {
-        font-family: Gotham Book Regular;
+    /*--------------------navbar-----------------------*/
+    
+/*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
         text-align: center;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.9em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text1 button {
+
+        width: 150px;
+        height: 22px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 10px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 25px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.9em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text2 button {
+        width: 150px;
+        height: 22px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 10px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+   .lead
+   {
+       font-size: 17px;
+   }
+   .text3
+   {
+       margin-top: 30%;
+   }
+
+    /*----------- section 3--------------*/
+     .section3
+  {
+       height:500px;
+   }
+    .countdown ul
+    {
+      margin-top:4%;
+    }
+     .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:0.7em;
+}
+
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 2px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.countdown li span 
+    {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:2em;
+    }
+
+    .countdown ul li:nth-child(odd) 
+    {
+    padding-left: 0px;
     }
 
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    ...
+@media only screen and (max-width:500px)
+{
+     .section3
+  {
+       height:500px;
+   }
+    .countdown ul
+    {
+      margin-top:0%;
+     
+    }
+     .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:1.2em;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    ...
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 0px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    ...
+.countdown li span 
+    {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:2em;
+    }
+
+    .countdown ul li:nth-child(3) 
+    {
+    padding-left: 40px;
+    }
+    .countdown ul li:nth-child(1) 
+    {
+    padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:514px)
+{
+    /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+     
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.8em;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .text1 button {
+
+        width: 150px;
+        height: 22px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 10px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 20px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.8em;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    }
+
+    .text2 button {
+        width: 150px;
+        height: 22px;
+        border-radius: 50px;
+        margin-left:0%;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 10px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+}
+@media only screen and (max-width:474px)
+{
+    .lead
+    {
+        font-size:16px;
+    }
+     .ml15 
+     {
+    font-size: 40px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:10%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:30%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:5%;
+  }
+
+}
+
+
+@media only screen and (max-width:430px)
+{
+    /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.7em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text1 button {
+
+        width: 120px;
+        height: 20px;
+        margin-left:0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 10px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align:center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 15px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.75em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text2 button {
+        width: 120px;
+        height: 20px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 8px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    /*----------section 2----------------------*/
+    .lead
+     {
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+
+  /*--------section3--------*/
+  .countdown
+  {
+    margin-top:20%;
+  }
+
+   .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:1em;
+}
+
+.countdown ul
+{
+  padding-right:15px;
+}
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 0px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    margin-bottom:5%;
+    text-transform: uppercase;
+}
+
+.countdown li span 
+    {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:3em;
+    }
+
+    .countdown ul li:nth-child(3) 
+    {
+    padding-left: 30px;
+    }
+    .countdown ul li:nth-child(1) 
+    {
+    padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:397px)
+{
+  
+    /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: center;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.65em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text1 button {
+
+        width: 110px;
+        height: 17px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 9px;
+        padding-top:1px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 15px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.65em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text2 button {
+        width: 110px;
+        height: 17px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 8px;
+         padding-top:1px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+     .ml15 
+     {
+    font-size: 30px;
+    
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:15%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:34%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:10%;
+  }
+}
+
+
+@media only screen and (max-width:345px)
+{
+    /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+      text-align: center;
+        top: 30%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 12px;
+       
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size:0.6em;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+
+    .text1 button {
+
+        width: 100px;
+        height: 17px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 9px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 32%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 12px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.6em;
+        font-weight: lighter;
+        margin-bottom: 8px;
+    }
+
+    .text2 button {
+        width: 105px;
+        height: 17px;
+         margin-left: 2%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 8px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    /*----------section 2----------*/
+    .lead
+    {
+        font-size:14px;
+    }
+     .ml15 
+     {
+    font-size: 30px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:13%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:32%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:8%;
+  }
+ /*------section 3------*/
+  /*--------section3--------*/
+    .section3
+    {
+      margin-top:0px;
+    }
+
+    .countdown ul
+    {
+      margin-top:20%;
+    }
+   .countdown li h2 
+  {
+    margin-left: 20px;
+    font-size:0.8em;
+}
+.countdown ul
+{
+  padding-right:10px;
+}
+
+.countdown li 
+{
+    display: inline-block;
+    color: #FF2B06;
+    letter-spacing: 0px;
+    font-family: Gotham Medium Regular;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.countdown li span 
+    {
+    display: block;
+    color: #ffffff;
+    font-family: Gotham Book Regular;
+    font-size:1.5em;
+    }
+
+    .countdown ul li:nth-child(3) 
+    {
+    padding-left: 30px;
+    }
+    .countdown ul li:nth-child(1) 
+    {
+    padding-left: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width:300px)
+{
+     /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: left;
+         text-align: center;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom:2px;
+       
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.5em;
+        font-weight: lighter;
+        margin-bottom: 0px;
+         
+    }
+
+    .text1 button {
+
+        width: 80px;
+        height: 15px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 7px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom:2px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.5em;
+        font-weight: lighter;
+        margin-bottom:0px;
+    }
+
+    .text2 button {
+        width: 80px;
+        height: 15px;
+         margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 6px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+    /*----------section 2----------*/
+    .lead
+    {
+        font-size:12px;
+    }
+    .text3
+    {
+        margin-top:45%;
+    }
+     .ml15 
+     {
+    font-size: 25px;
+    }
+  
+     .word:nth-child(1)
+  {
+    margin-left:13%;
+  }
+  .word:nth-child(2)
+  {
+    margin-left:33%;
+  }
+  .word:nth-child(3)
+  {
+    margin-left:8%;
+  }
+}
+
+@media only screen and (max-width:260px)
+{
+   /*-------------------------section 1------------------*/
+    .text1 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        left: 5%;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+        text-align: left;
+         text-align: center;
+        top: 30%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text1 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom:2px;
+       
+    }
+
+    .text1 p {
+        font-family: Gotham Book Regular;
+        font-size: 0.3em;
+        font-weight: lighter;
+        margin-bottom: 0px;
+         
+    }
+
+    .text1 button {
+
+        width: 60px;
+        height: 12px;
+        margin-left: 0%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 5px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
+
+    .text2 {
+        line-height: normal;
+        z-index: 10;
+        color: white;
+        border: dashed #FF2B06;
+        border-width: thin;
+        border-radius: 20px;
+         text-align: center;
+        right: 5%;
+        top: 35%;
+        width: 40%;
+        height: auto;
+        padding: 11px;
+    }
+
+    .text2 h2 {
+        font-family: Gotham Medium Regular;
+        margin-left: 0px;
+        font-size: 10px;
+        margin-bottom:2px;
+
+    }
+
+    .text2 p {
+        font-family: Gotham Book Regular;
+        font-size:0.3em;
+        font-weight: lighter;
+        margin-bottom:0px;
+    }
+
+    .text2 button {
+        width: 60px;
+        height: 15px;
+         margin-left: 5%;
+        border-radius: 50px;
+        color: white;
+        font-family: Gotham Medium Regular;
+        font-size: 5px;
+        font-weight: lighter;
+        background: #FF2B06;
+        border: solid #FF2B06;
+        border-width: thin;
+    }
 }

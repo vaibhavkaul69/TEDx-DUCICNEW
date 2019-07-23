@@ -7,7 +7,7 @@
     <!-- Favicon icon to be displayed at the title bar-->
     <link rel="shortcut icon" type="image/x-icon" href="images/X.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap libraries-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -44,11 +44,14 @@
                 <li class="nav-item">
                     <a style="font-size: 20px; color: white; " class="nav-link content" href="html/about.html">ABOUT</a>
                 </li>
+                <li class="nav-item">
+                    <a style="font-size: 20px; color: white; " class="nav-link content" href="">SPONSORS & PARTNERS</a>
+                </li>
             </ul>
         </div>
     </nav>
     <!-- Section-1 Both sliders 1(a) and 1(b) are included here-->
-    <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+   
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div style="background-color:#0a0a0a; " class="carousel-inner">
             <div id="spus" class="carousel-item active">
@@ -57,8 +60,8 @@
                     <div class="text1">
                         <h2><a class="typewrite" data-period="1000" data-type='[ "TEDxDUCIC" ]'><span class="wrap"></span>
                             </a></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a href="#"> <button type="button">SPONSOR US</button></a>
+                        <p>If you like our idea and would like to collaborate with us please fill this form.</p>
+                        <a href="html/sponsor-us.html" target="_top"> <button type="button">SPONSOR US</button></a>
                     </div>
                 </div>
             </div>
@@ -68,7 +71,7 @@
                     <div class="text2">
                         <h2><a class="typewrite" data-period="2000" data-type='[ "TEDxDUCIC" ]'><span class="wrap"></span>
                             </a></h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>If you have an idea worth spreading please fill this form.</p>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTOvjDfdLX1S8EhS2j1na8QH2HF3HRdSE0A65_HO0vzYwgEw/viewform" target="_blank"><button type="button">NOMINATE A SPEAKER</button></a>
                     </div>
                 </div>
@@ -88,18 +91,39 @@
     <!--------------------------Secton2 begins here-------------->
     <div class="wrapper2">
         <div class=" section2">
+            <!--
             <div class="image">
                 <img style="width:100%;" src="images/oxoblack.png">
             </div>
+            -->
             <div class="text3">
-                <strong>OBVIOUS OR OBLIVIOUS</strong>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                   
+                          <div class=" jumbotron-fluid">
+                           
+                              <h1 class="display-4 ml15">
+                                   <span class="word">OBVIOUS</span>
+                                   
+                               <span class="word">OR</span>
+                               <span class="word">OBLIVIOUS</span>
+                            </h1>
+                              <p class="lead">
+                                  “<i>Dark is dark in the darkness</i>” 
+                                    –Chet Williamson.
+                                    <br>
+                                    And it continues to be thus unless one moves beyond the apparentness of it and comes up with an idea that had remained obscure so far.
+                                     Stemming from this quest of unraveling the oblivious side of things and occurrences that have been surrounded by obviousness so far,
+                                      we at <b>TEDxDUCIC </b>introduce our theme “<b>Obvious or Oblivious</b>” with the understanding that evident conspicuousness might be laced with underlying inconspicuousness.
+                                       That, in a fast-paced world, one must stop, inquire and rediscover ideas to combat the linearity of occurrences.
+                                        What we most obviously know must pass the test of legitimacy to prove itself true. If it fails, 
+                                        it proves our oblivity to it. Bringing forth an introspective test to its audience,
+                                         the theme caters ideas worth sharing that unveil the "-<b>li</b>-" hidden in the "ob( <b>li</b> )vious".
+                                </p>
+                          
+                          </div>
             </div>
         </div>
     </div>
-    </div>
+
     <!--------------section 3 begins here------------------------------>
     <div id="count" class="wrapper3">
         <div class="section3">
@@ -110,11 +134,11 @@
                             <h2>Days</h2>
                         </li>
                         <li class="colon-separator">:</li>
-                        <li><span id="hours"></span>Hours</li>
+                        <li><span id="hours"></span><h2>Hours</h2></li>
                         <li class="colon-separator">:</li>
-                        <li><span id="minutes"></span>Minutes</li>
+                        <li><span id="minutes"></span><h2>Minutes</h2></li>
                         <li class="colon-separator">:</li>
-                        <li><span id="seconds"></span>Seconds</li>
+                        <li><span id="seconds"></span><h2>Seconds</h2></li>
                     </ul>
                 </div>
             </div>
@@ -125,28 +149,32 @@
     <div class="wrapper4">
         <div class="section4">
             <div class="ticket-venue" id="ven-tik">
-                <div class="col1">
-                    <img src="images/venue.png">
-                    <div class="text5">
-                        <strong>Coming Soon</strong>
-                    </div>
-                </div>
-                <div class="col2">
-                    <img src="images/ticket.png">
-                    <div class="text6">
-                        <strong>Coming Soon</strong>
-                    </div>
-                </div>
+                    <div class="row">
+                            <div class="column" >
+                             <div class="venue">
+                                 <img src="images/venue.png">
+                             </div>
+                              <p class="venue-text">Some text..</p>
+                            </div>
+                            <div class="column">
+                             <div class="ticket">
+                                 <img src="images/ticket.png">
+                             </div>
+                              <p>Some text..</p>
+                            </div>
+                          </div>
             </div>
         </div>
     </div>
     <!---------------------section 5 begins here------------------------>
+    
+    
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <!-- FOOTER START -->
     <div class="footer">
         <div style="margin-left:0px;  width:100%;" class="contain">
             <div class="col">
-                <img src="images/TEDxDUCIC.png">
+                <img class="ted-image-footer" src="images/TEDxDUCIC.png">
                 <ul>
                     <li style="display: inline-block; margin-left: 10px; "><img src="images/fb.png"></li>
                     <li style="display: inline-block; margin-left: 10px; "><img src="images/ig.png"></li>
@@ -207,9 +235,11 @@
                     <a href="mailto:tedxcic19@gmail.com" target="_blank">
                     <li>Contact us</li>
                 </a>
-                    <li>FAQs</li>
+                    <a href="html/faq.html" target="_top"><li>FAQs</li></a>
+                    <!--
                     <li>Terms & Conditions</li>
                     <li>Privacy Policy</li>
+                    -->
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -223,16 +253,19 @@
         <div class="footer-bottom">
             <ul>
                 <li>
-                    <h2>© 2019 TEDxDelhiUniversityClusterInnovationCenter</h2>
+                    <h2> Copyright © TEDxDUCIC. All rights reserved.
+</h2>
                     <h3>Website Developed by Vaibhav Kaul /Balram /Rishabh Kataria and designed by Ened D' Souza</h3>
                 </li>
             </ul>
         </div>
     </div>
     </div>
+   
+    <script src="js/theme-fade.js"></script>
     <script src="js/typewriter.js"></script>
-    <script src="js/image-fade.js"></script>
-    <script src="js/countdown.js"></script>
+
+  <script src="js/countdown.js"></script>
     <script src="js/fadein.js"></script>
 </body>
 

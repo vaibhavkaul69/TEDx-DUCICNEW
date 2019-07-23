@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Gotham Medium Regular;
+    src: url('../font/Gotham Medium Regular.ttf');
+}
+
+@font-face {
+    font-family: Gotham Book Regular;
+    src: url('../font/Gotham Book Regular.otf');
+}
+
+*
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background:#0a0a0a;
+}
+
+.display-4
+{
+    
+    font-family: Gotham Medium Regular;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color:white;
+
+
+}
+
+b
+{
+    color: #ff2b06;
+}
+i
+{
+    color:white;
+   text-decoration: underline; 
+}
+.lead
+{
+    color:white;
+  font-family: Gotham Book Regular;
+  margin-left:6%;
+  font-size:1em;
+  font-weight:lighter;
+  
+}
+.section1
+{
+    margin-left:5%;
+    margin-right:5%;
+    height:100%;
+    
+}
+.jumbotron-fluid
+{
+    margin-bottom:3em;
+   
+}
+
+.btn-lg
+{
+    margin-left:1em;
+    background:#fff;
+    color:#ff2b06;
+    font-weight:bolder;
+    font-size:2em;
+    border:1px solid #ff2b06;
+    width:-webkit-fill-available;
+}
+.btn-lg:hover
+{
+    color:#ff2b06;
+    background:#fff;
+    border:1px solid #ff2b06;
+    cursor:default;
+
+
+}
+.container
+{
+    margin-left:0%;
+     margin-right:0%;
+     padding:0%;
+     text-align:left;
+}
+
+
+@media only screen and (max-width:1100px)
+{
+      /*--------------------navbar-----------------------*/
+     .navbar-nav
+    {
+        margin-left:0px;
+    }
+    .nav-link
+    {
+        font-size:15px !important;
+    }
+    .navbar-brand img
+       {
+        margin-left: 0px;
+        }
+
+        #navbar-top
+        {
+            padding-left:0px;
+            padding-right:5px;
+            
+        }
+}

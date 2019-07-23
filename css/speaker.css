@@ -1,0 +1,153 @@
+@font-face
+{
+  font-family:Gotham Medium Regular;
+  src: url('../../assets/font/Gotham Medium Regular.ttf');
+}
+
+@font-face
+{
+  font-family:Gotham Book Regular;
+  src: url('../../assets/font/Gotham Book Regular.otf');
+}
+
+
+*
+{
+  scroll-behavior: smooth;
+}
+
+.box{
+   position: relative;
+   width:250px;
+   height: 250px;
+
+   background-color: #0a0a0a;
+ transition: 0.5s ease-in-out;
+ overflow: hidden;
+ }
+
+
+
+.box img
+{
+   
+  border: 1px solid #ffffff;
+  transition: 0.5s ease-in-out;
+  width:250px;
+  height: 250px;
+    
+}
+
+.wrraper
+{
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+    
+}
+
+.text1
+{
+  position: relative;
+  z-index: 10;
+  color: white;
+  top: 30%; 
+  width: 30%;
+ }
+
+
+ .text1 h2
+ {
+  font-family:Gotham Medium Regular;
+  font-size:25px;
+  text-align: left;
+ }
+ .text1 p
+ {
+  font-family:Gotham Book Regular;
+  font-size: 14px;
+  text-align: left;
+ }
+
+ .text1 button
+ {
+   width: 250px;
+   height: 40px;
+   border-radius: 50px;
+   color: white;
+   font-family:Gotham Medium Regular;
+   font-size: 15px;
+   font-weight:lighter;
+   background:#FF2B06;
+   border: solid #FF2B06;
+   border-width:thin;
+ }
+
+.text1 button:hover
+{
+  background: transparent;
+  color: #FF2B06;
+}
+
+.flex-container
+  {
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0px;
+  padding-left: 10px;
+  background-color: transparent;
+  }
+  .flex-container > div {
+    
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+
+  }
+   
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0009;
+  }
+
+  .box:hover .overlay {
+    opacity: 1;
+  }
+  
+
+  @media  (max-width:400px)
+  {
+    .flex-container
+    {
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-left: 35px;
+    }
+  }
+
+  @media  (max-width:310px)
+  {
+    .flex-container
+    {
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    }
+  }
+
+  @media  (max-width:290px)
+  {
+    .flex-container
+    {
+    margin: -10px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    }
+  }

@@ -12,8 +12,8 @@
 
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
-  border-top: solid #FF2B06;
-  border-width: thin;
+  border-top: 1px solid #FF2B06;
+
   width: 100%;
   position: relative;
   height: auto;
@@ -22,10 +22,13 @@
 }
 .footer  img
 {
-  height: 50px;
-  width: 100%;
+  height: 45px;
+  width: 90%;
   margin-top: 20px;
-
+}
+.ted-image-footer
+{
+  width:80%;
 }
 .footer .col {
   margin-top: 30px;
