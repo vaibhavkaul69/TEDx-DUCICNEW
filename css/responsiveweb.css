@@ -138,6 +138,36 @@
   {
     margin-left:22%;
   }
+  /*--------section4--------*/
+  .venue img
+{
+    margin-left: 30%;
+     margin-bottom:5%;
+}
+
+.venue-text
+{
+  margin-left:30%;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:30%;
+  margin-bottom:5%;
+}
+.ticket-text
+{
+  margin-left:30%;
+  font-family: Gotham Medium Regular;
+  width:40%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
 }
 
 @media only screen and (max-width:975px)
@@ -268,7 +298,36 @@
 }
 
 /*--------------------section 3 ends-------------------*/
+/*--------section4--------*/
+  .venue img
+{
+    margin-left: 30%;
+     margin-bottom:5%;
+}
 
+.venue-text
+{
+  margin-left:30%;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:25%;
+  margin-bottom:5%;
+}
+.ticket-text
+{
+  margin-left:25%;
+  font-family: Gotham Medium Regular;
+  width:40%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
 }
 
 @media only screen and (max-width:860px)
@@ -396,6 +455,36 @@
 .countdown ul li span:nth-child(1)
 {
   margin-left:20px;
+}
+/*----------section 4--------*/
+ .venue img
+{
+    margin-left: 25%;
+     margin-bottom:5%;
+}
+
+.venue-text
+{
+  margin-left:25%;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:20%;
+  margin-bottom:5%;
+}
+.ticket-text
+{
+  margin-left:20%;
+  font-family: Gotham Medium Regular;
+  width:40%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
 }
 }
 
@@ -624,6 +713,36 @@
   {
     margin-left:20%;
   }
+  /*----------section 4--------*/
+ .venue img
+{
+    margin-left: 25%;
+     margin-bottom:5%;
+}
+
+.venue-text
+{
+  margin-left:25%;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:20%;
+  margin-bottom:5%;
+}
+.ticket-text
+{
+  margin-left:20%;
+  font-family: Gotham Medium Regular;
+  width:45%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
 }
 
 @media only screen and (max-width:674px)
@@ -929,35 +1048,49 @@
         height:auto;
         overflow: hidden;
     }
+/*----------section 4--------*/
+  .section4
+  {
+    height:770px;
+  }
 
-    .ticket-venue {
-        padding: 2em;
-    margin: 2em;
-    text-align: center;
+   .column 
+   {
+      width: 100%;
     }
+     
+ .venue img
+{
+    margin-left: 37%;
+     margin-bottom:5%;
+      margin-top:10%
+}
 
-    .col1,.col2 {
-        display: inline-block;
-        min-height: 200px;
-        /*margin-left: 0;
-        margin-top: 0;*/
-        margin: 1em
-
-    }
-
-    .col1 img,
-    .col2 img {
-        margin-bottom: 1em;
-    }
-
-    .col1 strong,
-    .col2 strong {
-        margin-left: 0px;
-        font-size: 1em;
-        font-family: Gotham Medium Regular;
-
-    }
-
+.venue-text
+{
+  margin-left:35%;
+  width:350px;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:30%;
+  margin-bottom:5%;
+  margin-top:20%
+}
+.ticket-text
+{
+  margin-left:30%;
+  font-family: Gotham Medium Regular;
+  width:30%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
 
 }
 
@@ -1268,6 +1401,46 @@
     margin-left:5%;
   }
 
+  /*--------section 4--------*/
+   .column 
+   {
+      width: 100%;
+    }
+     
+ .venue img
+{
+    margin-left: 30%;
+     margin-bottom:5%;
+      margin-top:10%
+}
+
+.venue-text
+{
+  margin-left:27%;
+  width:300px;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:27%;
+  margin-bottom:5%;
+  margin-top:20%
+}
+.ticket-text
+{
+  margin-left:25%;
+  font-family: Gotham Medium Regular;
+  width:35%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
+
+
 }
 
 
@@ -1428,7 +1601,7 @@
         border-width: thin;
         border-radius: 20px;
         text-align: center;
-        top: 35%;
+        top: 27%;
         width: 40%;
         height: auto;
         padding: 11px;
@@ -1524,8 +1697,51 @@
   {
     margin-left:10%;
   }
+
+ 
 }
 
+@media only screen and (max-width:380px)
+{
+  /*--------section 4--------*/
+   .column 
+   {
+      width: 100%;
+    }
+     
+ .venue img
+{
+    margin-left: 27%;
+     margin-bottom:5%;
+      margin-top:10%
+}
+
+.venue-text
+{
+  margin-left:22%;
+  width:250px;
+  font-family: Gotham Medium Regular;
+}
+.ticket img
+{
+  margin-left:20%;
+  margin-bottom:5%;
+  margin-top:30%
+}
+.ticket-text
+{
+  margin-left:20%;
+  font-family: Gotham Medium Regular;
+  width:40%;
+  height:20%;
+  border-radius:0 50px 0 50px;
+  border:1px solid #ff2b06;
+  color:#ff2b06;
+  background-color:#fff;
+   filter: drop-shadow(1px 1px 1px #ff2b06);
+  
+}
+}
 
 @media only screen and (max-width:345px)
 {
@@ -1686,6 +1902,7 @@
     {
     padding-left: 20px;
     }
+    
 }
 
 

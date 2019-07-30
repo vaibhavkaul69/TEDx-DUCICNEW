@@ -23,7 +23,7 @@
 .footer  img
 {
   height: 45px;
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
 }
 .ted-image-footer
@@ -58,6 +58,7 @@
   margin: 0;
   padding: 0;
 }
+
 .footer .col ul li {
   color: #ffffff;
   
@@ -85,6 +86,59 @@
 }
 .clearfix {
   clear: both;
+}
+
+#myBtn
+{
+  font-family:Gotham Book Regular;
+  background:transparent;
+  border:none;
+   color:white; 
+   font-size: 14px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  color:#ff2b06;
+  border:1px solid #FF2B06;
+  filter: drop-shadow(1px 1px 15px #ff2b06);
+  text-align:center;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+/* The Close Button */
+.close {
+  color: #ff2b06;
+  float: right;
+ 
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*---------------------------section 5 footer bottom starts-----------*/
@@ -165,9 +219,17 @@
    
 }
 @media only screen and (max-width: 340px) {
-  .footer .col {
+  .footer  {
     width: 100%;
   }
+  .ted-image-footer
+{
+  width:80%;
+}
+.modal-content
+ {
+   width:60%;
+ }
 }
 
  

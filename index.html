@@ -65,17 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div id="nas" class="carousel-item">
-                <div class="text-over-image-right">
-                    <img class="d-block w-100" src="images/background2.png" alt="Second slide">
-                    <div class="text2">
-                        <h2><a class="typewrite" data-period="2000" data-type='[ "TEDxDUCIC" ]'><span class="wrap"></span>
-                            </a></h2>
-                        <p>If you have an idea worth spreading please fill this form.</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTOvjDfdLX1S8EhS2j1na8QH2HF3HRdSE0A65_HO0vzYwgEw/viewform" target="_blank"><button type="button">NOMINATE A SPEAKER</button></a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <!-------------Carousel next and previous buttons----------------->
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -89,6 +79,16 @@
     </div>
     </div>
     <!--------------------------Secton2 begins here-------------->
+    <div class="video-wrapper">
+        <div class="oxo-video">
+            <video  loop autoplay muted>
+                <source src="images/animation.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+   
+    
     <div class="wrapper2">
         <div class=" section2">
             <!--
@@ -96,6 +96,8 @@
                 <img style="width:100%;" src="images/oxoblack.png">
             </div>
             -->
+           
+            
             <div class="text3">
                    
                           <div class=" jumbotron-fluid">
@@ -151,16 +153,24 @@
             <div class="ticket-venue" id="ven-tik">
                     <div class="row">
                             <div class="column" >
+                             <a style=" color:#000000;"href="https://maps.app.goo.gl/KXxjLgfYABx8wZzG9" target="_blank">
                              <div class="venue">
                                  <img src="images/venue.png">
                              </div>
-                              <p class="venue-text">Some text..</p>
+                              <p class="venue-text">University of Delhi<br>
+                                 North Campus Conference Centre<br>
+                                University Road, St Stephen's College University Enclave,<br>
+                                Delhi, 110007<br>
+                              011 2392 2480</p>
+                            </a>
                             </div>
                             <div class="column">
                              <div class="ticket">
                                  <img src="images/ticket.png">
                              </div>
-                              <p>Some text..</p>
+                              <a href="https://www.townscript.com/e/tedxducic-143103" target="_blank">
+                                <button class="ticket-text">Book Here</button>
+                            </a>
                             </div>
                           </div>
             </div>
@@ -176,9 +186,9 @@
             <div class="col">
                 <img class="ted-image-footer" src="images/TEDxDUCIC.png">
                 <ul>
-                    <li style="display: inline-block; margin-left: 10px; "><img src="images/fb.png"></li>
+                    <li style="display: inline-block; margin-left: 30px; "><img src="images/fb.png"></li>
                     <li style="display: inline-block; margin-left: 10px; "><img src="images/ig.png"></li>
-                    <li style="display: inline-block; margin-left: 10px; "><img src="images/tw.png"></li>
+                    
                 </ul>
             </div>
             <div class="col">
@@ -232,9 +242,29 @@
             <div class="col">
                 <h1>Help</h1>
                 <ul>
-                    <a href="mailto:tedxcic19@gmail.com" target="_blank">
-                    <li>Contact us</li>
-                </a>
+                        <button id="myBtn">Contact Us</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+                        
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span class="close">&times;</span>
+                           
+                               
+                                    <li>
+                                         <p style=" font-family:Gotham Medium Regular;color:black;"class="lead dialog-box">Aarushi Srivastava <br>+91 98990 22301 </p> 
+                                      </li>
+                                    <li>
+                                            <p style=" font-family:Gotham Medium Regular;color:black;"class="lead dialog-box ">Shreyansh Goel<br>+91 98118 63312</p> 
+                                    </li>
+                                    <li>
+                                            <a style=" font-family:Gotham Medium Regular;color:black;"href="mailto:tedxcic19@gmail.com" target="_blank">Email:<p class="lead dialog-box">tedxcic19@gmail.com</p></a>
+                                    </li>
+                        
+                        
+                         
+                        
                     <a href="html/faq.html" target="_top"><li>FAQs</li></a>
                     <!--
                     <li>Terms & Conditions</li>
@@ -261,12 +291,16 @@
         </div>
     </div>
     </div>
-   
-    <script src="js/theme-fade.js"></script>
+   <script>
+
+</script>
+
+   <!--<script src="js/theme-fade.js"></script>-->
     <script src="js/typewriter.js"></script>
 
   <script src="js/countdown.js"></script>
     <script src="js/fadein.js"></script>
+    <script src="js/contact-dialog.js"></script>
 </body>
 
 </html>

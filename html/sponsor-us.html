@@ -8,6 +8,10 @@
             <!-- Favicon icon to be displayed at the title bar-->
             <link rel="shortcut icon" type="image/x-icon" href="../images/X.png">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <!-- Bootstrap libraries-->
@@ -21,10 +25,14 @@
             <link rel="stylesheet" type="text/css" href="../css/responsiveweb.css">
             <link rel="stylesheet" type="text/css" href="../css/sponsor-us.css">
            
-        
+           
+           
+             </script>
         </head>
         
         <body>
+
+                <div class="loader"></div>
             <!-- Navbar-->
             <nav style=" position:fixed; z-index:999;width: 100%; background-color:#000000 !important; " class="navbar navbar-expand-lg navbar-light bg-dark" id="navbar-top">
                 <a class="navbar-brand" id="ted" href="../index.html"><img style="width:178px;height:43px;
@@ -64,7 +72,7 @@
                                 <div class="col-md-3 register-left">
                                     <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                                     <h3>Welcome Sponsors!</h3>
-                                    <p>TEDxDUCIC is a full day conference on 17th of August, 2019, with a line up of ten unusual and promising speakers, who will spark deep discussions and connections within the group. 
+                                    <p>TEDxDUCIC is a full-day conference on the 24th of August, 2019, with around 10 live speakers. The day will witness live speakers who will spark deep discussions and connections within the group.
                                         </p>
                                    
                                 </div>
@@ -79,10 +87,10 @@
                                             <div class="row register-form">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder=" Name *" value="" required/>
+                                                        <input type="text" class="form-control" placeholder=" Name *" value="" id="id" required/>
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" class="form-control" placeholder="Organisation Name *" value=""  required/>
+                                                        <input type="text" class="form-control" placeholder="Organisation Name *" value="" id="content" required/>
                                                     </div>
                                                     </div>
                                                 <div class="col-md-6">
@@ -92,7 +100,7 @@
                                                     <div class="form-group">
                                                         <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value=""  required/>
                                                     </div>
-                                                    <input type="submit" class="btnRegister"  value="Register" enabled >
+                                                    <input type="submit" class="btnRegister" id="submit"  value="Register" enabled >
                                              </div>
                                              
                                             </div>
@@ -105,7 +113,7 @@
                     </div>
                               
       
-       
+   
        
     </body>
     </html>
