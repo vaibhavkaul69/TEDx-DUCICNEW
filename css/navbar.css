@@ -18,18 +18,20 @@
    
 .navbar-nav
 {
-    margin-left: 20px;
+    margin-left:3%;
     margin-top: 0px;
 }
 .navbar-nav .nav-item a
 {   
     font-family:Gotham Medium Regular; 
     display: block;
-    margin-left: 30px;
+    margin-left: 10px;
     padding: 0px;
    transition: 0.5s;
-   
+    border:1px solid white;
+    border-radius:50px;
    letter-spacing: 2px;
+   height:100%;
    transition: 0.5s;
 }
 
@@ -37,13 +39,19 @@
 {
     color: #ff2b06 !important;
     transition: 0.5s;
+   
 }
 .navbar-brand
 {
   width: 16%;
-  margin-left: 25px;
+  margin-left: 2%;
 }
 .active
 {
   color: #ff2b06;
+}
+
+@media only screen and (max-width:1130px)
+{
+  
 }

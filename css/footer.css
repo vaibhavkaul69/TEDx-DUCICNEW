@@ -23,7 +23,7 @@
 .footer  img
 {
   height: 45px;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 20px;
 }
 .ted-image-footer
@@ -224,7 +224,7 @@
   }
   .ted-image-footer
 {
-  width:80%;
+  width:100%;
 }
 .modal-content
  {
